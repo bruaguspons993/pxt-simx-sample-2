@@ -1,11 +1,6 @@
 name: Build Simulator Extension
 on:
     push:
-        paths:
-            - "simx/**"
-        tags:
-            - v**
-    
     workflow_dispatch:
 
 jobs:
